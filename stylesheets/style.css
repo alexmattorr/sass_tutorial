@@ -63,8 +63,21 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 2, ../sass/base/_base.scss */
+/* line 1, ../sass/base/_base.scss */
 body {
   background: #333;
   color: #F1f1f1;
+}
+
+/* line 6, ../sass/base/_base.scss */
+h1 {
+  font-size: 1.2rem;
+  color: red;
+  transition-property: color;
+  transition-duration: .3s;
+  transition-timing-function: ease-in-out;
+}
+/* line 10, ../sass/base/_base.scss */
+h1:hover {
+  color: #333;
 }
